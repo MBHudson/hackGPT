@@ -31,11 +31,11 @@ img {
 """
 
 st.markdown(f'<style>{CSS}</style>', unsafe_allow_html=True)
-st.sidebar.image('https://raw.githubusercontent.com/NoDataFound/hackGPT/main/res/hackGPT_logo.png', width=300)
-github_logo = "https://raw.githubusercontent.com/NoDataFound/hackGPT/main/res/github.png"
-hackGPT_repo = "https://github.com/NoDataFound/hackGPT"
+#st.sidebar.image('https://raw.githubusercontent.com/NoDataFound/hackGPT/main/res/hackGPT_logo.png', width=300)
+#github_logo = "https://raw.githubusercontent.com/NoDataFound/hackGPT/main/res/github.png"
+#hackGPT_repo = "https://github.com/NoDataFound/hackGPT"
 
-st.sidebar.markdown(f"[![GitHub]({github_logo})]({hackGPT_repo} 'hackGPT repo')")
+#st.sidebar.markdown(f"[![GitHub]({github_logo})]({hackGPT_repo} 'hackGPT repo')")
 #Persona Setup
 def get_persona_files():
     return [f.split(".")[0] for f in os.listdir("personas") if f.endswith(".md")]
