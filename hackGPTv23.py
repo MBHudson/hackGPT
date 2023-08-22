@@ -21,7 +21,7 @@ if not openai.api_key:
     set_key('.env', 'OPENAI_API_KEY', openai.api_key)
 
 os.environ['OPENAI_API_KEY'] = openai.api_key
-st.set_page_config(page_title="𝚑𝚊𝚌𝚔🅶🅿🆃", page_icon="https://raw.githubusercontent.com/NoDataFound/hackGPT/main/res/hackgpt_fav.png", layout="wide")
+#st.set_page_config(page_title="𝚑𝚊𝚌𝚔🅶🅿🆃", page_icon="https://raw.githubusercontent.com/NoDataFound/hackGPT/main/res/hackgpt_fav.png", layout="wide")
 # Define the chat history data as a Pandas DataFrame
 
 CSS = """
