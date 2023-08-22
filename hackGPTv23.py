@@ -21,8 +21,7 @@ if not openai.api_key:
     set_key('.env', 'OPENAI_API_KEY', openai.api_key)
 
 os.environ['OPENAI_API_KEY'] = openai.api_key
-#st.set_page_config(page_title="𝚑𝚊𝚌𝚔🅶🅿🆃", page_icon="https://raw.githubusercontent.com/NoDataFound/hackGPT/main/res/hackgpt_fav.png", layout="wide")
-# Define the chat history data as a Pandas DataFrame
+#st.set_page_config(page_title="Black🅶🅿🆃", page_icon=".png"
 
 CSS = """
 img {
@@ -31,11 +30,11 @@ img {
 """
 
 st.markdown(f'<style>{CSS}</style>', unsafe_allow_html=True)
-#st.sidebar.image('https://raw.githubusercontent.com/NoDataFound/hackGPT/main/res/hackGPT_logo.png', width=300)
-#github_logo = "https://raw.githubusercontent.com/NoDataFound/hackGPT/main/res/github.png"
-#hackGPT_repo = "https://github.com/NoDataFound/hackGPT"
+#st.sidebar.image('.png', width=300)
+#github_logo = ".png"
+#hackGPT_repo = ""
 
-#st.sidebar.markdown(f"[![GitHub]({github_logo})]({hackGPT_repo} 'hackGPT repo')")
+#st.sidebar.markdown(f"[![GitHub]({github_logo})]({BlaackGPT_repo} 'BlackGPT repo')")
 #Persona Setup
 def get_persona_files():
     return [f.split(".")[0] for f in os.listdir("personas") if f.endswith(".md")]
